@@ -1,0 +1,89 @@
+
+
+<html onkeyup="keyUp()" onkeydown="javascript:return keyDown(event)">
+<head>
+	<title>lets type with : </title>
+	<meta charset="utf-8">
+	<link href="typeStyle.css" rel="stylesheet">
+	<script src="keyboardsAndWords.js"></script>
+	<script src="typeScript.js"></script>
+</head>
+<body>
+<!--	
+	<div id="loginTab">
+		<a href="" id="loginLink">login / logout</a>
+	</div>
+-->
+	<div id="infoButton">?</div>
+	<div id="infoPane" class="hidden">
+		<p id="closeInfo">X</p>
+		<p id="infoText"></p>
+	</div>
+	
+	<div id="pageWrapper">
+		<div id="headerWrapper">
+			lets type with : 
+			<select onChange="ChangeKeyboard(value)" id="selector">
+				<option value="qwerty">qwerty</option>
+				<option value="dvorak">dvorak</option>
+				<option value="nihongo">日本語</option>
+				<option value="bopomofo">ㄅㄆㄇㄈ</option>
+				<option value="hangul">한글</option>
+			</select>
+		</div>
+		<div id="bodyWrapper">
+			<div id="exampleText">
+				<span>
+					Pick a keyboard type and hit Start!
+				</span>
+			</div>
+			<div id="infoBox">
+				<p id="startStopButton" onclick="StartStop()">
+					start / stop
+				</p>
+				<p>
+					<span>
+						time : 
+					</span>
+					<span id="time">
+						00:00
+					</span>
+				</p>
+				<p>
+					<span>
+						wpm : 
+					</span>
+					<span id="wpm">
+						0
+					</span>
+				</p>
+				<p>
+					<span>
+						correct : 
+					</span>
+					<span id="correct">
+						0
+					</span>
+				</p>
+				<p>
+					<span>
+						incorrect : 
+					</span>
+					<span id="incorrect">
+						0
+					</span>
+				</p>
+			</div>
+
+			<div id="allKeys">
+			
+			</div>
+
+		</div>
+
+		<div id="footerWrapper">
+			<a href="../../" class="righty">back home</a>
+		</div>
+	</div>
+</body>
+</html>

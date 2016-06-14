@@ -1,0 +1,180 @@
+* {
+/*	background-color: black;
+	color : white;
+	border : solid red 1px;*/
+	margin : 2px;
+	padding : 2px;
+	font-family : sans-serif;
+	font-weight : bold;
+}
+
+body {
+	background-color : darkgray;
+}
+
+a {
+	color : black;
+}
+
+a:hover {
+	color : darkgray;
+}
+
+.lefty {
+	float : left;
+}
+
+.righty {
+	float : right;
+}
+.highlight{
+	color : white;
+	background-color: black;
+	padding : 0px;
+	margin : 0px;
+}
+.hidden {
+	display : none;	
+}
+
+#closeInfo {
+	position : absolute;
+	right : 30px;
+	top : 1px;
+	border : solid black 3px;
+	border-radius : 30px;
+	padding : 10px;
+	background-color : #aaa;
+	font-family : sans-serif;
+	font-weight : bold;
+	color : #555;
+}
+
+#infoPane {
+  position: fixed; /* could be absolute */
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+  padding : 15px;
+  width: 800px;
+  height: 350px;
+	background : #555;
+	border : solid black 5px;
+	border-radius : 15px;
+}
+
+#infoButton {
+	position : absolute;
+	left : 30px;
+	top : 15px;
+	font-size : large;
+	background-color : #333;
+	color : #fff;
+	border-radius : 10px;
+	display : inline;
+	padding : 10px 15px;
+	margin : 5px;
+}
+
+#infoButton:hover {
+	background-color : #666;
+}
+
+#infoText {
+	padding : 30px;
+	color : white;
+}
+
+#footerWrapper {
+	overflow : auto;
+}
+
+#startStopButton {
+	text-align : center;
+	border : solid black 2px;
+	border-radius : 5px;
+	color : white;
+	background-color : black;
+	cursor : default;
+}
+
+#loginTab {
+	border : solid black 5px;
+	border-radius : 5px;
+	overflow : auto;
+	background-color : lightgray;
+	position : absolute;
+	width : 110px;
+	height : 25px;
+	left : 550px;
+	top : -8px;
+	padding-top : 10px;
+}
+
+#pageWrapper {
+	margin : auto;
+	margin-top : 40px;
+	width : 850px;
+	border : solid black 5px;
+	border-radius : 5px;
+	background-color : lightgray;
+}
+
+#infoBox {
+	float : right;
+	margin-top : -100px;
+	border-radius : 5px;
+	border : solid black 2px;
+	width : 150px;
+	height : 120px;
+	overflow : hidden;
+	font-size : small;
+	background-color : darkgray;
+}
+
+#headerWrapper {
+	border-radius : 5px;
+	border : solid black 4px;
+	color : black;
+	background-color : white;
+	text-align : center;
+	font-size : x-large;
+}
+
+#exampleText {
+	margin : auto;
+	text-align : center;
+	color : black;
+	background-color : white;
+	border-radius : 5px;
+	border : solid black 3px;
+	width : 50%;
+	height : 100px;
+	overflow : auto;
+	letter-spacing: 2px;
+}
+
+#allKeys{
+	margin-top : 35px;
+	background-color : black;
+	border-radius : 5px;
+	overflow : auto;
+	clear : both;
+}
+
+#allKeys ul{
+	background-color : gray;
+	border-radius : 5px;
+	text-align : center;
+}
+
+#allKeys li{
+	border : solid black 2px;
+	border-radius : 5px;
+	background-color : black;
+	color : white;
+	display : inline-block;
+	/*width : 25px;*/
+	font-weight : bold;
+	font-size : small;
+	padding : 0px 10px 0px 10px ;
+}
